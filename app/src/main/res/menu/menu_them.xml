@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Quản lí đơn hàng"
+        >
+
+        <menu>
+
+            <item android:title="Đơn mua"
+                android:id="@+id/donmua"
+                />
+            <item android:title="Đơn bán"
+                android:id="@+id/donban"
+                />
+            <item android:title="Ví bán hàng"
+                android:id="@+id/vibanhang"
+                />
+            <item android:title="Danh sách người dùng"
+                android:id="@+id/listUser"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Tiện ích"
+        >
+
+        <menu>
+
+            <item android:title="Tin đăng đã lưu"
+                android:id="@+id/tindangdaluu"
+                android:icon="@drawable/tin_da_luu"
+                />
+            <item android:title="Tìm kiếm đã lưu"
+                android:id="@+id/timkiemdaluu"
+                />
+            <item android:title="Đánh giá từ tôi"
+                android:id="@+id/danhgia"
+                android:icon="@drawable/danh_gia"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Dịch vụ trả phí"
+        >
+
+        <menu>
+
+            <item android:title="Đồng tốt"
+                android:id="@+id/dongtot"
+                />
+            <item android:title="Gói PRO"
+                android:id="@+id/pro"
+                />
+            <item android:title="Lịch sử giao dịch"
+                android:id="@+id/lichsu"
+                />
+            <item android:title="Tạo cửa hàng/Chuyên trang"
+                android:id="@+id/taocuahang"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Ưu đãi khuyến mãi"
+        >
+
+        <menu>
+
+            <item android:title="Chợ tốt ưu đãi"
+                android:id="@+id/uudaichotot"
+                />
+            <item android:title="Vòng quay may mắn"
+                android:id="@+id/vongquaymayman"
+                android:icon="@drawable/img_vong_quay"
+                />
+            <item android:title="Giới thiệu bạn bè"
+                android:id="@+id/gioithieu"
+                />
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="Khác"
+        >
+
+        <menu>
+
+            <item android:title="Cài đặt tài khoản"
+                android:id="@+id/caidattaikhoan"
+                />
+            <item android:title="Trợ giúp"
+                android:id="@+id/trogiup"
+                />
+            <item android:title="Đóng góp ý kiến"
+                android:id="@+id/ykien"
+                />
+
+            <item android:title="Đăng xuất"
+                android:id="@+id/logout"
+                />
+
+        </menu>
+
+    </item>
+
+
+</menu>

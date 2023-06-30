@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "762614685417",
+    "project_id": "cho-tot-du-an-1",
+    "storage_bucket": "cho-tot-du-an-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762614685417:android:702532a73176bb363a1a78",
+        "android_client_info": {
+          "package_name": "com.example.duan1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762614685417-9kqdqm7s3p0526oo7oll7oqavd1p7qsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.duan1",
+            "certificate_hash": "cd0c1d01547704e95efb124ab8353c0ed31a029c"
+          }
+        },
+        {
+          "client_id": "762614685417-jlfihvhvjn76sdhrpjei605d7vk609am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDku6vimuJpZiXsqXTqgB0DErAhoJ6QoNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762614685417-jlfihvhvjn76sdhrpjei605d7vk609am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

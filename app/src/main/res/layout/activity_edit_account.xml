@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAccount"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/Orenge"
+        >
+
+        <ImageButton
+            android:id="@+id/imgbtn_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@color/trans..."
+            android:src="@drawable/ic_back_page"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Cài đặt thông tin"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/img_avatar_activity_editaccount"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            >
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_tv_edit_account"
+                android:gravity="center"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/user_icon"
+
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_tv_edit_account"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_baseline_create_24"
+                    android:background="@drawable/bg_edit_img_account"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/bg_input"
+            android:layout_marginLeft="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="50dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và tên"
+                    android:textColor="@color/gray_1"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/tv_name_activity_editaccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:theme="@style/ThemeOverlay.Material3.TextInputEditText"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/img_name"
+                android:layout_width="50dp"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                android:hint="Lưu"
+                android:textSize="13dp"
+                android:textColorHint="@color/white"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_sdt_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Cập nhật số điện thoại"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tv_location_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Thêm địa chỉ"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+        <TextView
+            android:id="@+id/tv_cccd_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="CMND/CCCD/Hộ chiếu"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+        <TextView
+            android:id="@+id/tv_password_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Đổi mật khẩu"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+        <TextView
+            android:id="@+id/tv_sex_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Cập nhật giới tính"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+        <TextView
+            android:id="@+id/tv_date_of_birth_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Cập nhật ngày sinh"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+        <TextView
+            android:id="@+id/tv_xuat_hoa_don_activity_editaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Thông tin xuất hóa đơn"
+            android:textSize="14dp"
+            android:textColor="@color/Orenge_1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

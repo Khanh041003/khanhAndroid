@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_item"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:elevation="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgTinDang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_message"
+        />
+
+    <LinearLayout
+        android:layout_marginLeft="90dp"
+        android:id="@+id/lnnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="10dp"
+        android:layout_marginRight="35dp"
+
+        >
+
+        <TextView
+            android:id="@+id/title_historyNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiêu đề tin đăng"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/desc_historyNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Mô tả tin đăng "
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:maxHeight="23dp"
+            />
+
+        <TextView
+            android:id="@+id/time_historyNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12-11-2022"
+            android:textColor="@color/gray_2"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon_option"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_delete"
+        />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

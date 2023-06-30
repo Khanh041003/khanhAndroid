@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chợ tốt 2</string>
+    <string name="register">Đăng kí</string>
+    <string name="login">Đăng nhập</string>
+    <string name="reset_password">Bạn quên mật khẩu?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="facebook_app_id">692535855718075</string>
+    <string name="fb_login_protocol_scheme">fb692535855718075</string>
+    <!--    <string name="facebook_app_id1">839074010751429</string>-->
+    <!--    <string name="fb_login_protocol_scheme1">fb839074010751429</string>-->
+    <string name="facebook_client_token">56789</string>
+
+
+</resources>

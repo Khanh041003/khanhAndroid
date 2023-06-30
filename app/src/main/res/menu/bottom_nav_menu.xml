@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Trang chủ"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/believe"
+        android:title="Quản lí tin"
+        android:icon="@drawable/ic_baseline_newspaper_24"/>
+
+    <item android:id="@+id/post"
+        android:title=""
+        />
+
+    <item android:id="@+id/market"
+        android:title="Dạo chợ"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"/>
+
+    <item android:id="@+id/more"
+        android:title="Thêm"
+        android:icon="@drawable/ic_baseline_more_horiz_24"/>
+</menu>

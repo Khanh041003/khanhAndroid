@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="Sửa tin"
+        android:id="@+id/suaTin"/>
+    <item android:title="Xóa tin"
+        android:id="@+id/xoaTin"/>
+</menu>
